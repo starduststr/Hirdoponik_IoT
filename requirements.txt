@@ -1,0 +1,23 @@
+Gravity Analog pH Sensor https://create.arduino.cc/projecthub/atlasscientific/arduino-ph-meter-e94fb4
+
+DHT22
+
+DFROBOT TDS Meter Sensor https://create.arduino.cc/projecthub/GAURAVK5/dfrobot-tds-meter-sensor-with-arduino-and-lcd-measure-92853d
+
+HC-SR04 Sensor ultrasonik
+
+Arduino Mega
+
+ESP8266 ESP-01 Wifi serial module
+
+Power suply 12V 5a
+
+Relay 5V 8 chanel
+
+Breadboard MB-102
+
+Kabel jumper female to female, male to male, female to male
+
+LCD 20x4 i2c (blue backlight)
+
+pengaduk sama pompa belum (pilih yang dayanya <= 12V )

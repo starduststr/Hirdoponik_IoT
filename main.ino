@@ -58,7 +58,7 @@ void serialEvent() {                                  //if the hardware serial p
   input_string_complete = true;                       //set the flag used to tell if we have received a completed string from the PC
 }
 
-void loop(){
+void tds(){
     //TDS METER
     static unsigned long analogSampleTimepoint = millis();
    if(millis()-analogSampleTimepoint > 40U)     //every 40 milliseconds,read the analog value from the ADC
@@ -93,8 +93,10 @@ void loop(){
   lcd.setCursor(3, 1);
   lcd.print("Techeonics"); 
    }
+}
 
-   //pH Sensor
+void pH(){
+    //pH Sensor
     if (input_string_complete == true) {                //check if data received
     inputstring.toCharArray(inputstring_array, 30);   //convert the string to a char array
     parse_cmd(inputstring_array);                     //send data to pars_cmd function
@@ -105,8 +107,10 @@ void loop(){
   lcd.setCursor(8, 2);                             //place cursor on screen at column 9, row 3
   lcd.print(pH.read_ph());                         //output pH to lcd
   //delay(1000);
+}
 
-  //DHT22
+void dht(){
+    //DHT22
    hum = dht.readHumidity();
     temp= dht.readTemperature();
     //Print temp and humidity values to serial monitor
@@ -115,6 +119,12 @@ void loop(){
     Serial.print(" %, Temp: ");
     Serial.print(temp);
     Serial.println(" Celsius");
+}
+
+void loop(){
+   tds();
+   pH();
+   dht();
 }
 
 void parse_cmd(char* string) {                      //For calling calibration functions

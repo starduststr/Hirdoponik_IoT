@@ -1,23 +1,23 @@
-Gravity Analog pH Sensor https://create.arduino.cc/projecthub/atlasscientific/arduino-ph-meter-e94fb4
+Gravity Analog pH Sensor https://create.arduino.cc/projecthub/atlasscientific/arduino-ph-meter-e94fb4 1 pcs
 
-DHT22
+DHT22 1 pcs
 
-DFROBOT TDS Meter Sensor https://create.arduino.cc/projecthub/GAURAVK5/dfrobot-tds-meter-sensor-with-arduino-and-lcd-measure-92853d
+DFROBOT TDS Meter Sensor https://create.arduino.cc/projecthub/GAURAVK5/dfrobot-tds-meter-sensor-with-arduino-and-lcd-measure-92853d 1 pcs
 
-HC-SR04 Sensor ultrasonik
+HC-SR04 Sensor ultrasonik 1 pcs
 
-Arduino Mega
+Arduino Mega 1 pcs
 
-ESP8266 ESP-01 Wifi serial module
+ESP8266 ESP-01 Wifi serial module 1 pcs
 
-Power suply 12V 5a
+Power suply 12V 5a 1 pcs
 
-Relay 5V 8 chanel
+Relay 5V 8 chanel 1 pcs
 
-Breadboard MB-102
+Breadboard MB-102 1 pcs
 
-Kabel jumper female to female, male to male, female to male
+Kabel jumper female to female, male to male, female to male (masing masing 80 pcs)
 
-LCD 20x4 i2c (blue backlight)
+LCD 20x4 i2c (blue backlight) 1 pcs
 
 pengaduk sama pompa belum (pilih yang dayanya <= 12V )

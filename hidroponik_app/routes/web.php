@@ -18,4 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/dashboard', [App\Http\Controllers\Dashboard::class, 'index'])->name('dashboard');
+Route::get('/setup_parameter', [App\Http\Controllers\Setup_sensor::class, 'index'])->name('setup_parameter');
 

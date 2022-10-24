@@ -20,3 +20,8 @@ Route::get('/', function () {
 Route::get('/dashboard', [App\Http\Controllers\Dashboard::class, 'index'])->name('dashboard');
 Route::get('/setup_parameter', [App\Http\Controllers\Setup_sensor::class, 'index'])->name('setup_parameter');
 
+Route::post('/create_parameter', [App\Http\Controllers\Setup_sensor::class, 'create'])->name('create_parameter');
+Route::post('/delete_parameter', [App\Http\Controllers\Setup_sensor::class, 'delete'])->name('delete_parameter');
+Route::post('/edit_parameter', [App\Http\Controllers\Setup_sensor::class, 'edit'])->name('edit_parameter');
+
+
